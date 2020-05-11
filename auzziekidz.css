@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    background: url(images/multi_colored_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 100px;
+}
+
+header h1 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 50pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    margin: 0;
+}
+
+/* styling the navigation bar */
+ul {
+    background-color: orange;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    display: inline;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 13pt;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 23px;
+    padding-right: 30px;
+}
+
+/* change the a:link hover color (black) */
+li a:hover {
+    background-color: black;
+    color: orange;
+}
+
+aside {
+    padding: 20px;
+    margin: 15px;
+    height: 260px;
+}
+
+aside h2 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 30pt;
+    padding-left: .4em;
+}
+
+aside p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12pt;
+    padding-left: 1em;
+    padding-right: 12px;
+}
+
+/* figure images */
+figure {
+    text-align: center;
+    display: inline-block;
+}
+
+figure > img { 
+    width: 310px;
+    margin: 12px;
+}
+
+article {
+    background: url(images/multi_colored_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+
+article h3 {
+    font-family: 'Boogaloo', cursive;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 1em;
+}
+
+article p {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+section {
+    background: url(images/multi_colored_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 130px;
+}
+
+section h5 {
+    font-family: 'Boogaloo', cursive;
+    color: white;
+    font-size: 30pt;
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 12px;
+    vertical-align: middle;
+}
+
+section > img {
+    width: 250px;
+    float: right;
+    height: auto;
+    margin-right: 5em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+div {
+    height: 690px;
+}
+
+div > h4 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 35pt;
+    color: orange;
+    padding: 18px;
+    margin: 20px;
+    text-align: center;
+}
+
+span {
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    padding-left: 3em;
+    padding-right: 5em;
+    margin-bottom: 1em;
+}
+
+/* styling the headings and paragraphs */
+
+footer {
+    height: 260px;
+    background-color: orange;
+}
+
+footer h6 {
+    font-family: 'Boogaloo', sans-serif;
+    font-size: 14pt;
+    width: 20%;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 14px;
+}
+
+footer > p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 11pt;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;
+    margin-left: 2em;
+    margin-right: -3px;
+    margin-top: -1.6em;
+}
